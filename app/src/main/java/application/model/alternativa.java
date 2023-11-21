@@ -1,13 +1,15 @@
 package application.model;
 
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import javax.persistence.*;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-import javax.persistence.*;
+import javax.persistence.ManyToOne;
+import javax.persistence.Column;
+
 
 @Entity
 public class Alternativa {
@@ -25,5 +27,4 @@ public class Alternativa {
     @Column(nullable = false)
     private boolean correta;
 
-    // Getters e setters
 }

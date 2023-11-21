@@ -3,15 +3,9 @@ package com.example.crudquestaoalternativa.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import application.repository.questaoRepository.QuestaoRepository;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-@RestController
+@Controller
 @RequestMapping("/questoes")
 public class QuestaoController {
     @Autowired
