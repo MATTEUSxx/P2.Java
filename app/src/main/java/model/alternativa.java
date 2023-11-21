@@ -1,4 +1,4 @@
-package application.model;
+package model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,5 +1,5 @@
 package application.controller;
-package com.example.crudquestaoalternativa.controller;
+package controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
