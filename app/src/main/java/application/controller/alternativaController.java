@@ -1,3 +1,4 @@
+package application.controller;
 package com.example.crudquestaoalternativa.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import javax.persistence.CascadeType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+@Controller
 @RequestMapping("/alternativas")
 public class AlternativaController {
     @Autowired

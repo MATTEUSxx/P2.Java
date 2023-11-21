@@ -11,8 +11,8 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'com.h2database:h2'
+    implementation 'org.hibernate:hibernate-core:5.5.6.Final' 
+    implementation 'javax.persistence:javax.persistence-api:2.2'
     implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-    implementation 'javax.persistence:javax.persistence-api:2.2' // Adicionando a API de JPA
-    implementation 'org.hibernate:hibernate-core' // Adicionando o Hibernate para JPA
 }
+gradle bootRun
